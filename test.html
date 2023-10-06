@@ -1,0 +1,19 @@
+<html>
+<head>
+<script>
+function loadSite() {
+  var site = document.getElementById("siteSelect").value;
+  var iframe = document.getElementById("siteFrame");
+  iframe.src = site;
+}
+</script>
+</head>
+<body>
+<select id="siteSelect" onchange="loadSite()">
+  <option value="https://lukefullard.github.io/target_maps/targets/periphyton_targets.html">Periphyton</option>
+  <option value="https://lukefullard.github.io/target_maps/targets/ecoli_targets.html">E. coli</option>
+  <option value="https://lukefullard.github.io/target_maps/targets/periphyton_targets.html">Sediment</option>
+</select>
+<iframe id="siteFrame" src="https://lukefullard.github.io/target_maps/targets/periphyton_targets.html" style="width:100%; height:100%; border:none;"></iframe>
+</body>
+</html>
