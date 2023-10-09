@@ -1,0 +1,16 @@
+CACHE MANIFEST
+# This is a comment
+# The CACHE section lists the files to cache
+CACHE:
+https://lukefullard.github.io/target_maps/targets/periphyton_targets.html
+https://lukefullard.github.io/target_maps/targets/ecoli_targets.html
+https://lukefullard.github.io/target_maps/targets/sediment_targets.html
+
+# The NETWORK section lists the files that require a connection
+NETWORK:
+*
+
+# The FALLBACK section lists the fallback pages for offline access
+FALLBACK:
+/ /offline.html
+
